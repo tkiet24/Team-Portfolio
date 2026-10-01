@@ -1,0 +1,1135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OurPortfolio — Software Outsourcing Team</title>
+  <meta name="description" content="OurPortfolio is a software outsourcing team of three specialists: a UX Designer, a Fullstack Developer, and a Software Architect. We design, build, and scale digital products." />
+  <meta name="keywords" content="software outsourcing, portfolio, UX design, fullstack developer, software architect, web development" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- Background Orbs -->
+<div class="bg-orb bg-orb-1"></div>
+<div class="bg-orb bg-orb-2"></div>
+<div class="bg-orb bg-orb-3"></div>
+
+<!-- ================================================
+     NAVIGATION
+     ================================================ -->
+<nav id="navbar">
+  <div class="nav-inner">
+    <div class="nav-logo">
+      <span class="logo-dot"></span>
+      OurPortfolio
+    </div>
+
+    <div class="nav-links">
+      <a href="#" data-page="home"    id="nav-home"    class="active">Home</a>
+      <a href="#" data-page="members" id="nav-members">Team Members</a>
+      <a href="#" data-page="projects" id="nav-projects">Projects</a>
+      <a href="#" data-page="about"   id="nav-about">About Us</a>
+    </div>
+
+    <a href="#" data-page="contact" id="nav-contact" class="nav-cta">Contact Us</a>
+
+    <button class="nav-hamburger" id="hamburger" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#" data-page="home"     class="mobile-link">🏠 Home</a>
+  <a href="#" data-page="members"  class="mobile-link">👥 Team Members</a>
+  <a href="#" data-page="projects" class="mobile-link">💼 Projects</a>
+  <a href="#" data-page="about"    class="mobile-link">🌟 About Us</a>
+  <a href="#" data-page="contact"  class="mobile-link">✉️ Contact</a>
+</div>
+
+<main>
+
+<!-- ================================================
+     PAGE: HOME
+     ================================================ -->
+<section id="page-home" class="page active">
+
+  <!-- Hero -->
+  <div class="hero">
+    <div class="container">
+      <div class="hero-inner">
+
+        <!-- Left content -->
+        <div>
+          <div class="hero-label fade-in">
+            <span class="dot"></span>
+            Software Outsourcing Team · 2026
+          </div>
+
+          <h1 class="hero-title fade-in fade-in-delay-1">
+            We Build<br>
+            <span class="gradient-text">Digital Products</span><br>
+            That Scale.
+          </h1>
+
+          <p class="hero-desc fade-in fade-in-delay-2">
+            OurPortfolio is a trio of passionate specialists — a UX Designer, a Fullstack Developer, and a Software Architect — crafting software solutions that are fast, beautiful, and built to last.
+          </p>
+
+          <div class="hero-actions fade-in fade-in-delay-3">
+            <a href="#" data-page="projects" class="btn btn-primary page-link">
+              View Our Work <span>→</span>
+            </a>
+            <a href="#" data-page="members" class="btn btn-outline page-link">
+              Meet the Team
+            </a>
+          </div>
+
+          <div class="hero-stats fade-in fade-in-delay-4">
+            <div class="stat-item">
+              <span class="stat-num">3</span>
+              <span class="stat-label">Team Members</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-num">5+</span>
+              <span class="stat-label">Projects Built</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-num">100%</span>
+              <span class="stat-label">Passion Driven</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right card stack visual -->
+        <div class="hero-visual fade-in fade-in-delay-2">
+          <div class="hero-card-stack">
+            <!-- Back card 1 -->
+            <div class="hero-card hero-card-back1">
+              <div class="hero-card-avatar">
+                <img src="assets/avatar_bao.jpg" alt="Gia Bao" />
+              </div>
+              <div class="hero-card-name">Gia Bảo</div>
+              <div class="hero-card-role">Fullstack Developer</div>
+              <div class="hero-card-skills">
+                <span class="hero-card-skill">React</span>
+                <span class="hero-card-skill">Node.js</span>
+              </div>
+            </div>
+            <!-- Back card 2 -->
+            <div class="hero-card hero-card-back2">
+              <div class="hero-card-avatar">
+                <img src="assets/avatar_quan.jpg" alt="Thế Quân" />
+              </div>
+              <div class="hero-card-name">Thế Quân</div>
+              <div class="hero-card-role">Software Architect</div>
+              <div class="hero-card-skills">
+                <span class="hero-card-skill">System Design</span>
+                <span class="hero-card-skill">Cloud</span>
+              </div>
+            </div>
+            <!-- Main card -->
+            <div class="hero-card hero-card-main">
+              <div class="hero-card-avatar">
+                <img src="assets/avatar_kiet.jpg" alt="Tuấn Kiệt" />
+              </div>
+              <div class="hero-card-name">Tuấn Kiệt</div>
+              <div class="hero-card-role">UX Designer</div>
+              <div class="hero-card-skills">
+                <span class="hero-card-skill">Figma</span>
+                <span class="hero-card-skill">UX Research</span>
+                <span class="hero-card-skill">Prototyping</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- /hero-inner -->
+    </div><!-- /container -->
+  </div><!-- /hero -->
+
+  <!-- Featured Members Strip -->
+  <div class="featured-members">
+    <div class="container">
+      <div class="featured-members-inner">
+        <div class="featured-title-block">
+          <div class="section-label">Meet the team</div>
+          <div style="font-family:var(--font-heading);font-weight:700;font-size:0.95rem;color:var(--clr-text-muted);">3 Specialists</div>
+        </div>
+        <div class="featured-chips">
+          <a href="#" data-page="kiet" class="featured-chip page-link">
+            <div class="featured-chip-avatar"><img src="assets/avatar_kiet.jpg" alt="Kiệt" /></div>
+            <div>
+              <div class="featured-chip-name">Thái Nguyễn Tuấn Kiệt</div>
+              <div class="featured-chip-role">UX Designer</div>
+            </div>
+          </a>
+          <a href="#" data-page="bao" class="featured-chip page-link">
+            <div class="featured-chip-avatar"><img src="assets/avatar_bao.jpg" alt="Bảo" /></div>
+            <div>
+              <div class="featured-chip-name">Nguyễn Phương Gia Bảo</div>
+              <div class="featured-chip-role">Fullstack Developer</div>
+            </div>
+          </a>
+          <a href="#" data-page="quan" class="featured-chip page-link">
+            <div class="featured-chip-avatar"><img src="assets/avatar_quan.jpg" alt="Quân" /></div>
+            <div>
+              <div class="featured-chip-name">Nguyễn Thế Quân</div>
+              <div class="featured-chip-role">Software Architect</div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Why Us / Values -->
+  <div class="section">
+    <div class="container">
+      <div class="section-label fade-in">What we offer</div>
+      <h2 class="section-title fade-in fade-in-delay-1">
+        Built with <span>Purpose.</span><br>Delivered with <span>Excellence.</span>
+      </h2>
+      <p class="section-desc fade-in fade-in-delay-2">
+        We combine design thinking, engineering depth, and architectural foresight to ship software that solves real problems.
+      </p>
+
+      <div class="values-grid">
+        <div class="value-card fade-in fade-in-delay-1">
+          <div class="value-icon">🎨</div>
+          <div class="value-title">Human-Centered Design</div>
+          <div class="value-desc">Every pixel is intentional. We research, prototype, and test to create experiences users love — not just tolerate.</div>
+        </div>
+        <div class="value-card fade-in fade-in-delay-2">
+          <div class="value-icon">⚙️</div>
+          <div class="value-title">Full-Stack Engineering</div>
+          <div class="value-desc">From React frontends to Node.js APIs and Python services — we build the full stack and own it end to end.</div>
+        </div>
+        <div class="value-card fade-in fade-in-delay-3">
+          <div class="value-icon">🏗️</div>
+          <div class="value-title">Scalable Architecture</div>
+          <div class="value-desc">Systems that grow with your business. We design for reliability, maintainability, and long-term scale from day one.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section><!-- /page-home -->
+
+
+<!-- ================================================
+     PAGE: TEAM MEMBERS
+     ================================================ -->
+<section id="page-members" class="page">
+  <div class="container">
+    <div class="members-hero">
+      <div class="section-label fade-in">Our people</div>
+      <h1 class="section-title fade-in fade-in-delay-1">
+        The <span>Dream Team</span>
+      </h1>
+      <p class="section-desc fade-in fade-in-delay-2" style="margin:0 auto;">
+        Three specialists with complementary skills, working together to deliver complete, production-ready software.
+      </p>
+
+      <div class="members-grid">
+
+        <!-- Kiệt -->
+        <div class="member-card kiet fade-in fade-in-delay-1" data-page="kiet" role="button" tabindex="0">
+          <div class="member-card-glow"></div>
+          <div class="member-card-top">
+            <div class="member-avatar">
+              <img src="assets/avatar_kiet.jpg" alt="Tuấn Kiệt" />
+            </div>
+            <span class="member-badge badge-kiet">UX Designer</span>
+          </div>
+          <h2 class="member-name">Thái Nguyễn Tuấn Kiệt</h2>
+          <div class="member-role">User Experience Designer</div>
+          <p class="member-bio">Passionate about creating intuitive, accessible digital experiences. Specializes in user research, interaction design, and building design systems that scale.</p>
+          <div class="member-skills">
+            <span class="member-skill-tag">Figma</span>
+            <span class="member-skill-tag">UX Research</span>
+            <span class="member-skill-tag">Prototyping</span>
+            <span class="member-skill-tag">CSS</span>
+            <span class="member-skill-tag">HTML</span>
+          </div>
+          <div class="member-card-footer">
+            <span class="member-view-btn">View Profile <span class="arrow">→</span></span>
+            <div class="member-social">
+              <a href="#" class="social-icon" title="GitHub">GH</a>
+              <a href="#" class="social-icon" title="LinkedIn">Li</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bảo -->
+        <div class="member-card bao fade-in fade-in-delay-2" data-page="bao" role="button" tabindex="0">
+          <div class="member-card-glow"></div>
+          <div class="member-card-top">
+            <div class="member-avatar">
+              <img src="assets/avatar_bao.jpg" alt="Gia Bảo" />
+            </div>
+            <span class="member-badge badge-bao">Fullstack</span>
+          </div>
+          <h2 class="member-name">Nguyễn Phương Gia Bảo</h2>
+          <div class="member-role">Fullstack Developer</div>
+          <p class="member-bio">Full-stack engineer who thrives in the space between a polished UI and a robust API. Builds modern web applications using React, Node.js, and Python.</p>
+          <div class="member-skills">
+            <span class="member-skill-tag">React</span>
+            <span class="member-skill-tag">Node.js</span>
+            <span class="member-skill-tag">Python</span>
+            <span class="member-skill-tag">SQL</span>
+            <span class="member-skill-tag">REST APIs</span>
+          </div>
+          <div class="member-card-footer">
+            <span class="member-view-btn">View Profile <span class="arrow">→</span></span>
+            <div class="member-social">
+              <a href="#" class="social-icon" title="GitHub">GH</a>
+              <a href="#" class="social-icon" title="LinkedIn">Li</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Quân -->
+        <div class="member-card quan fade-in fade-in-delay-3" data-page="quan" role="button" tabindex="0">
+          <div class="member-card-glow"></div>
+          <div class="member-card-top">
+            <div class="member-avatar">
+              <img src="assets/avatar_quan.jpg" alt="Thế Quân" />
+            </div>
+            <span class="member-badge badge-quan">Architect</span>
+          </div>
+          <h2 class="member-name">Nguyễn Thế Quân</h2>
+          <div class="member-role">Software Architect</div>
+          <p class="member-bio">Systems thinker who designs clean, scalable architectures. Expertise spans microservices, cloud infrastructure, and database design for high-performance applications.</p>
+          <div class="member-skills">
+            <span class="member-skill-tag">System Design</span>
+            <span class="member-skill-tag">Cloud</span>
+            <span class="member-skill-tag">Microservices</span>
+            <span class="member-skill-tag">Python</span>
+            <span class="member-skill-tag">Java</span>
+          </div>
+          <div class="member-card-footer">
+            <span class="member-view-btn">View Profile <span class="arrow">→</span></span>
+            <div class="member-social">
+              <a href="#" class="social-icon" title="GitHub">GH</a>
+              <a href="#" class="social-icon" title="LinkedIn">Li</a>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- /members-grid -->
+    </div>
+  </div>
+</section><!-- /page-members -->
+
+
+<!-- ================================================
+     PAGE: PROFILE — KIỆT
+     ================================================ -->
+<section id="page-kiet" class="page profile-page">
+  <div class="profile-hero">
+    <div class="container">
+      <div class="profile-hero-inner">
+        <div class="profile-avatar-wrap">
+          <div class="profile-avatar-ring"></div>
+          <div class="profile-avatar">
+            <img src="assets/avatar_kiet.jpg" alt="Tuấn Kiệt" />
+          </div>
+        </div>
+        <div class="profile-info">
+          <button class="profile-back-btn" data-page="members">← Back to Team</button>
+          <h1 class="profile-name">Thái Nguyễn Tuấn Kiệt</h1>
+          <div class="profile-role-line">
+            <span class="member-badge badge-kiet">UX Designer</span>
+            <span class="profile-role">User Experience Designer</span>
+          </div>
+          <p class="profile-bio">
+            A user experience designer with a deep love for research-driven design. Kiệt believes that great software begins with empathy — understanding users' needs before drawing a single wireframe. He specializes in turning complex problems into clean, usable interfaces.
+          </p>
+          <div class="profile-actions">
+            <a href="#" class="btn btn-primary" data-page="contact" id="kiet-hire">Hire Kiệt →</a>
+            <a href="#" class="btn btn-outline">Download CV</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="profile-body">
+    <div class="container">
+      <div class="profile-grid">
+
+        <!-- Main column -->
+        <div class="profile-main">
+          <!-- Skills -->
+          <div class="profile-section">
+            <div class="profile-section-title">🎯 Skills & Expertise</div>
+            <div class="skill-bar-list">
+              <div class="skill-bar-item">
+                <div class="skill-bar-header"><span class="skill-bar-name">Figma & Design Systems</span><span class="skill-bar-pct">92%</span></div>
+                <div class="skill-bar-track"><div class="skill-bar-fill" data-width="92"></div></div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="skill-bar-header"><span class="skill-bar-name">UX Research & Testing</span><span class="skill-bar-pct">87%</span></div>
+                <div class="skill-bar-track"><div class="skill-bar-fill" data-width="87"></div></div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="skill-bar-header"><span class="skill-bar-name">Prototyping & Wireframing</span><span class="skill-bar-pct">90%</span></div>
+                <div class="skill-bar-track"><div class="skill-bar-fill" data-width="90"></div></div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="skill-bar-header"><span class="skill-bar-name">HTML & CSS</span><span class="skill-bar-pct">75%</span></div>
+                <div class="skill-bar-track"><div class="skill-bar-fill" data-width="75"></div></div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="skill-bar-header"><span class="skill-bar-name">JavaScript (Basic)</span><span class="skill-bar-pct">55%</span></div>
+                <div class="skill-bar-track"><div class="skill-bar-fill" data-width="55"></div></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Projects -->
+          <div class="profile-section">
+            <div class="profile-section-title">💼 Projects Contributed</div>
+            <div class="profile-project-list">
+              <div class="profile-project-card">
+                <div class="proj-card-title">🛍️ NexaShop — E-commerce Redesign</div>
+                <div class="proj-card-desc">Led the full UX overhaul of an existing e-commerce platform, improving conversion rate by redesigning the checkout flow and product discovery experience.</div>
+                <div class="proj-card-tags"><span class="tag">Figma</span><span class="tag mint">UX Research</span><span class="tag">Design System</span></div>
+              </div>
+              <div class="profile-project-card">
+                <div class="proj-card-title">📱 TaskFlow — Mobile App UI</div>
+                <div class="proj-card-desc">Designed the complete mobile UI for a task management app. Created user personas, journey maps, and a high-fidelity prototype used directly by developers.</div>
+                <div class="proj-card-tags"><span class="tag">Figma</span><span class="tag rose">Mobile UX</span><span class="tag mint">Prototyping</span></div>
+              </div>
+              <div class="profile-project-card">
+                <div class="proj-card-title">🏥 MediCare — Healthcare Dashboard</div>
+                <div class="proj-card-desc">Designed accessible data dashboards for medical professionals, focusing on information hierarchy and reducing cognitive load in high-stress workflows.</div>
+                <div class="proj-card-tags"><span class="tag">Dashboard</span><span class="tag peach">Accessibility</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sidebar -->
+        <div class="profile-sidebar">
+          <div class="profile-section">
+            <div class="profile-section-title">📋 Information</div>
+            <div class="info-list">
+              <div class="info-item">
+                <div class="info-icon">👤</div>
+                <div><div class="info-label">Full Name</div><div class="info-value">Thái Nguyễn Tuấn Kiệt</div></div>
+              </div>
+              <div class="info-item">
+                <div class="info-icon">🎓</div>
+                <div><div class="info-label">Education</div><div class="info-value">Software Engineering, University</div></div>
+              </div>
+              <div class="info-item">
+                <div class="info-icon">📍</div>
+                <div><div class="info-label">Location</div><div class="info-value">Ho Chi Minh City, Vietnam</div></div>
+              </div>
+              <div class="info-item">
+                <div class="info-icon">💼</div>
+                <div><div class="info-label">Role</div><div class="info-value">UX Designer</div></div>
+              </div>
+              <div class="info-item">
+                <div class="info-icon">✉️</div>
+                <div><div class="info-label">Email</div><div class="info-value">kiet@ourportfolio.dev</div></div>
+              </div>
+              <div class="info-item">
+                <div class="info-icon">🌐</div>
+                <div><div class="info-label">Languages</div><div class="info-value">Vietnamese, English</div></div>
+              </div>
+            </div>
+          </div>
+          <div class="profile-section">
+            <div class="profile-section-title">🛠️ Tools</div>
+            <div style="display:flex;flex-wrap:wrap;gap:8px;">
+              <span class="tag">Figma</span>
+              <span class="tag mint">Adobe XD</span>
+              <span class="tag peach">Notion</span>
+              <span class="tag rose">Miro</span>
+              <span class="tag">InVision</span>
+              <span class="tag mint">Zeplin</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section><!-- /page-kiet -->
+
+
+<!-- ================================================
+     PAGE: PROFILE — BẢO
+     ================================================ -->
+<section id="page-bao" class="page profile-page profile-bao">
+  <div class="profile-hero">
+    <div class="container">
+      <div class="profile-hero-inner">
+        <div class="profile-avatar-wrap">
+          <div class="profile-avatar-ring"></div>
+          <div class="profile-avatar">
+            <img src="assets/avatar_bao.jpg" alt="Gia Bảo" />
+          </div>
+        </div>
+        <div class="profile-info">
+          <button class="profile-back-btn" data-page="members">← Back to Team</button>
+          <h1 class="profile-name">Nguyễn Phương Gia Bảo</h1>
+          <div class="profile-role-line">
+            <span class="member-badge badge-bao">Fullstack</span>
+            <span class="profile-role">Fullstack Developer</span>
+          </div>
+          <p class="profile-bio">
+            A developer who writes code the way a writer crafts prose — clear, purposeful, and maintainable. Bảo bridges the gap between design and infrastructure, building applications that are as robust on the server as they are polished in the browser.
+          </p>
+          <div class="profile-actions">
+            <a href="#" class="btn btn-primary" style="background:var(--grad-bao);box-shadow:0 4px 20px rgba(91,196,177,0.4);" data-page="contact">Hire Bảo →</a>
+            <a href="#" class="btn btn-outline">Download CV</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="profile-body">
+    <div class="container">
+      <div class="profile-grid">
+        <div class="profile-main">
+          <div class="profile-section">
+            <div class="profile-section-title">🎯 Skills & Expertise</div>
+            <div class="skill-bar-list">
+              <div class="skill-bar-item">
+                <div class="skill-bar-header"><span class="skill-bar-name">React / Vue.js</span><span class="skill-bar-pct">90%</span></div>
+                <div class="skill-bar-track"><div class="skill-bar-fill" data-width="90"></div></div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="skill-bar-header"><span class="skill-bar-name">Node.js / Express</span><span class="skill-bar-pct">88%</span></div>
+                <div class="skill-bar-track"><div class="skill-bar-fill" data-width="88"></div></div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="skill-bar-header"><span class="skill-bar-name">Python (Django/Flask)</span><span class="skill-bar-pct">80%</span></div>
+                <div class="skill-bar-track"><div class="skill-bar-fill" data-width="80"></div></div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="skill-bar-header"><span class="skill-bar-name">SQL & Databases</span><span class="skill-bar-pct">82%</span></div>
+                <div class="skill-bar-track"><div class="skill-bar-fill" data-width="82"></div></div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="skill-bar-header"><span class="skill-bar-name">REST APIs / GraphQL</span><span class="skill-bar-pct">85%</span></div>
+                <div class="skill-bar-track"><div class="skill-bar-fill" data-width="85"></div></div>
+              </div>
+            </div>
+          </div>
+          <div class="profile-section">
+            <div class="profile-section-title">💼 Projects Contributed</div>
+            <div class="profile-project-list">
+              <div class="profile-project-card">
+                <div class="proj-card-title">🛍️ NexaShop — E-commerce Platform</div>
+                <div class="proj-card-desc">Built the full React frontend and Node.js backend for the NexaShop platform, including real-time inventory, payments, and an admin dashboard.</div>
+                <div class="proj-card-tags"><span class="tag mint">React</span><span class="tag">Node.js</span><span class="tag peach">PostgreSQL</span></div>
+              </div>
+              <div class="profile-project-card">
+                <div class="proj-card-title">📡 DataPulse — Analytics Dashboard</div>
+                <div class="proj-card-desc">Developed a real-time analytics platform with WebSocket data streams, chart visualizations, and a Python data ingestion pipeline.</div>
+                <div class="proj-card-tags"><span class="tag mint">Vue.js</span><span class="tag">Python</span><span class="tag rose">WebSockets</span></div>
+              </div>
+              <div class="profile-project-card">
+                <div class="proj-card-title">📱 TaskFlow — Backend API</div>
+                <div class="proj-card-desc">Architected and built the REST API for the TaskFlow mobile app, including user auth, task management, real-time notifications, and team collaboration.</div>
+                <div class="proj-card-tags"><span class="tag">Node.js</span><span class="tag mint">JWT Auth</span><span class="tag">MongoDB</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="profile-sidebar">
+          <div class="profile-section">
+            <div class="profile-section-title">📋 Information</div>
+            <div class="info-list">
+              <div class="info-item"><div class="info-icon">👤</div><div><div class="info-label">Full Name</div><div class="info-value">Nguyễn Phương Gia Bảo</div></div></div>
+              <div class="info-item"><div class="info-icon">🎓</div><div><div class="info-label">Education</div><div class="info-value">Software Engineering, University</div></div></div>
+              <div class="info-item"><div class="info-icon">📍</div><div><div class="info-label">Location</div><div class="info-value">Ho Chi Minh City, Vietnam</div></div></div>
+              <div class="info-item"><div class="info-icon">💼</div><div><div class="info-label">Role</div><div class="info-value">Fullstack Developer</div></div></div>
+              <div class="info-item"><div class="info-icon">✉️</div><div><div class="info-label">Email</div><div class="info-value">bao@ourportfolio.dev</div></div></div>
+              <div class="info-item"><div class="info-icon">🌐</div><div><div class="info-label">Languages</div><div class="info-value">Vietnamese, English</div></div></div>
+            </div>
+          </div>
+          <div class="profile-section">
+            <div class="profile-section-title">🛠️ Stack</div>
+            <div style="display:flex;flex-wrap:wrap;gap:8px;">
+              <span class="tag mint">React</span><span class="tag">Vue.js</span><span class="tag peach">Node.js</span><span class="tag">Python</span><span class="tag mint">PostgreSQL</span><span class="tag rose">MongoDB</span><span class="tag">Git</span><span class="tag mint">Docker</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section><!-- /page-bao -->
+
+
+<!-- ================================================
+     PAGE: PROFILE — QUÂN
+     ================================================ -->
+<section id="page-quan" class="page profile-page profile-quan">
+  <div class="profile-hero">
+    <div class="container">
+      <div class="profile-hero-inner">
+        <div class="profile-avatar-wrap">
+          <div class="profile-avatar-ring"></div>
+          <div class="profile-avatar">
+            <img src="assets/avatar_quan.jpg" alt="Thế Quân" />
+          </div>
+        </div>
+        <div class="profile-info">
+          <button class="profile-back-btn" data-page="members">← Back to Team</button>
+          <h1 class="profile-name">Nguyễn Thế Quân</h1>
+          <div class="profile-role-line">
+            <span class="member-badge badge-quan">Architect</span>
+            <span class="profile-role">Software Architect</span>
+          </div>
+          <p class="profile-bio">
+            An architect who sees software as a living system. Quân designs the blueprints that allow teams to move fast without breaking things — crafting systems that are resilient, observable, and ready to scale from day one.
+          </p>
+          <div class="profile-actions">
+            <a href="#" class="btn btn-primary" style="background:var(--grad-quan);box-shadow:0 4px 20px rgba(245,151,110,0.4);" data-page="contact">Hire Quân →</a>
+            <a href="#" class="btn btn-outline">Download CV</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="profile-body">
+    <div class="container">
+      <div class="profile-grid">
+        <div class="profile-main">
+          <div class="profile-section">
+            <div class="profile-section-title">🎯 Skills & Expertise</div>
+            <div class="skill-bar-list">
+              <div class="skill-bar-item">
+                <div class="skill-bar-header"><span class="skill-bar-name">System Design & Architecture</span><span class="skill-bar-pct">95%</span></div>
+                <div class="skill-bar-track"><div class="skill-bar-fill" data-width="95"></div></div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="skill-bar-header"><span class="skill-bar-name">Cloud Infrastructure (AWS/GCP)</span><span class="skill-bar-pct">85%</span></div>
+                <div class="skill-bar-track"><div class="skill-bar-fill" data-width="85"></div></div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="skill-bar-header"><span class="skill-bar-name">Microservices & APIs</span><span class="skill-bar-pct">90%</span></div>
+                <div class="skill-bar-track"><div class="skill-bar-fill" data-width="90"></div></div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="skill-bar-header"><span class="skill-bar-name">Python & Java</span><span class="skill-bar-pct">83%</span></div>
+                <div class="skill-bar-track"><div class="skill-bar-fill" data-width="83"></div></div>
+              </div>
+              <div class="skill-bar-item">
+                <div class="skill-bar-header"><span class="skill-bar-name">Database Design (SQL/NoSQL)</span><span class="skill-bar-pct">88%</span></div>
+                <div class="skill-bar-track"><div class="skill-bar-fill" data-width="88"></div></div>
+              </div>
+            </div>
+          </div>
+          <div class="profile-section">
+            <div class="profile-section-title">💼 Projects Contributed</div>
+            <div class="profile-project-list">
+              <div class="profile-project-card">
+                <div class="proj-card-title">🏗️ NexaShop — System Architecture</div>
+                <div class="proj-card-desc">Designed the full microservices architecture for NexaShop, including service decomposition, message queues, caching layers, and deployment pipelines.</div>
+                <div class="proj-card-tags"><span class="tag peach">Microservices</span><span class="tag">Docker</span><span class="tag rose">RabbitMQ</span></div>
+              </div>
+              <div class="profile-project-card">
+                <div class="proj-card-title">🏥 MediCare — HIPAA-Compliant System</div>
+                <div class="proj-card-desc">Architected a healthcare data platform with strict security requirements, encryption, audit logging, and compliance controls for medical data handling.</div>
+                <div class="proj-card-tags"><span class="tag peach">Cloud</span><span class="tag">Security</span><span class="tag mint">Compliance</span></div>
+              </div>
+              <div class="profile-project-card">
+                <div class="proj-card-title">📡 DataPulse — Streaming Architecture</div>
+                <div class="proj-card-desc">Designed the event-driven data pipeline for DataPulse, handling high-throughput real-time data streams using Apache Kafka and distributed processing.</div>
+                <div class="proj-card-tags"><span class="tag">Kafka</span><span class="tag peach">Stream Processing</span><span class="tag rose">Java</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="profile-sidebar">
+          <div class="profile-section">
+            <div class="profile-section-title">📋 Information</div>
+            <div class="info-list">
+              <div class="info-item"><div class="info-icon">👤</div><div><div class="info-label">Full Name</div><div class="info-value">Nguyễn Thế Quân</div></div></div>
+              <div class="info-item"><div class="info-icon">🎓</div><div><div class="info-label">Education</div><div class="info-value">Software Engineering, University</div></div></div>
+              <div class="info-item"><div class="info-icon">📍</div><div><div class="info-label">Location</div><div class="info-value">Ho Chi Minh City, Vietnam</div></div></div>
+              <div class="info-item"><div class="info-icon">💼</div><div><div class="info-label">Role</div><div class="info-value">Software Architect</div></div></div>
+              <div class="info-item"><div class="info-icon">✉️</div><div><div class="info-label">Email</div><div class="info-value">quan@ourportfolio.dev</div></div></div>
+              <div class="info-item"><div class="info-icon">🌐</div><div><div class="info-label">Languages</div><div class="info-value">Vietnamese, English</div></div></div>
+            </div>
+          </div>
+          <div class="profile-section">
+            <div class="profile-section-title">🛠️ Tech</div>
+            <div style="display:flex;flex-wrap:wrap;gap:8px;">
+              <span class="tag peach">AWS</span><span class="tag">GCP</span><span class="tag rose">Docker</span><span class="tag">Kubernetes</span><span class="tag peach">Kafka</span><span class="tag">Python</span><span class="tag mint">Java</span><span class="tag">PostgreSQL</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section><!-- /page-quan -->
+
+
+<!-- ================================================
+     PAGE: PROJECTS
+     ================================================ -->
+<section id="page-projects" class="page">
+  <div class="container">
+    <div class="projects-hero">
+      <div class="section-label fade-in">Our work</div>
+      <h1 class="section-title fade-in fade-in-delay-1">Team <span>Projects</span></h1>
+      <p class="section-desc fade-in fade-in-delay-2" style="margin:0 auto;">
+        From e-commerce platforms to healthcare systems — here's what we've built together.
+      </p>
+    </div>
+
+    <div class="project-filter fade-in">
+      <button class="filter-btn active" data-filter="all">All Projects</button>
+      <button class="filter-btn" data-filter="web">Web App</button>
+      <button class="filter-btn" data-filter="mobile">Mobile</button>
+      <button class="filter-btn" data-filter="data">Data / Analytics</button>
+      <button class="filter-btn" data-filter="healthcare">Healthcare</button>
+    </div>
+
+    <div class="projects-grid">
+
+      <!-- Featured: NexaShop -->
+      <div class="project-card featured fade-in" data-category="web">
+        <div class="project-card-thumb" style="background:linear-gradient(135deg,#0d0d20,#1a1a2e);">
+          <div class="thumb-bg" style="background:linear-gradient(135deg,#7c6ef5,#5bc4b1);"></div>
+          <span class="thumb-emoji">🛍️</span>
+        </div>
+        <div class="project-card-body">
+          <div class="project-card-meta">
+            <span class="project-card-category">Web Application</span>
+            <span class="project-card-year">2026</span>
+          </div>
+          <h2 class="project-card-title">NexaShop — Full-Stack E-commerce</h2>
+          <p class="project-card-desc">A complete e-commerce platform built from the ground up. Features a redesigned UX flow, React storefront, Node.js microservices backend, and PostgreSQL data layer — all containerized on AWS.</p>
+          <div class="project-card-tags">
+            <span class="tag">React</span>
+            <span class="tag mint">Node.js</span>
+            <span class="tag peach">AWS</span>
+            <span class="tag rose">Microservices</span>
+            <span class="tag">Figma UX</span>
+          </div>
+          <div class="project-card-footer">
+            <div class="project-member-avatars">
+              <img src="assets/avatar_kiet.jpg" alt="Kiệt" title="Tuấn Kiệt — UX" />
+              <img src="assets/avatar_bao.jpg" alt="Bảo" title="Gia Bảo — Dev" />
+              <img src="assets/avatar_quan.jpg" alt="Quân" title="Thế Quân — Arch" />
+            </div>
+            <span class="project-member-label">Full team · 3 members</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- TaskFlow -->
+      <div class="project-card fade-in fade-in-delay-1" data-category="mobile">
+        <div class="project-card-thumb" style="background:linear-gradient(135deg,#0d0d20,#1a1a2e);">
+          <div class="thumb-bg" style="background:linear-gradient(135deg,#e879a0,#7c6ef5);"></div>
+          <span class="thumb-emoji">📱</span>
+        </div>
+        <div class="project-card-body">
+          <div class="project-card-meta">
+            <span class="project-card-category" style="color:var(--clr-accent4);">Mobile App</span>
+            <span class="project-card-year">2026</span>
+          </div>
+          <h2 class="project-card-title">TaskFlow — Team Task Manager</h2>
+          <p class="project-card-desc">A mobile-first productivity app for teams. Kiệt designed the intuitive UI/UX, while Bảo built the real-time backend with push notifications and collaborative task boards.</p>
+          <div class="project-card-tags">
+            <span class="tag rose">Mobile UX</span>
+            <span class="tag">Node.js</span>
+            <span class="tag mint">MongoDB</span>
+          </div>
+          <div class="project-card-footer">
+            <div class="project-member-avatars">
+              <img src="assets/avatar_kiet.jpg" alt="Kiệt" />
+              <img src="assets/avatar_bao.jpg" alt="Bảo" />
+            </div>
+            <span class="project-member-label">Kiệt + Bảo · 2 members</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- DataPulse -->
+      <div class="project-card fade-in fade-in-delay-2" data-category="data">
+        <div class="project-card-thumb" style="background:linear-gradient(135deg,#0d0d20,#1a1a2e);">
+          <div class="thumb-bg" style="background:linear-gradient(135deg,#5bc4b1,#7c6ef5);"></div>
+          <span class="thumb-emoji">📡</span>
+        </div>
+        <div class="project-card-body">
+          <div class="project-card-meta">
+            <span class="project-card-category" style="color:var(--clr-accent2);">Analytics</span>
+            <span class="project-card-year">2025</span>
+          </div>
+          <h2 class="project-card-title">DataPulse — Real-Time Analytics</h2>
+          <p class="project-card-desc">A streaming analytics platform powered by Apache Kafka and Vue.js. Handles high-throughput data ingestion, real-time visualization, and automated alerting.</p>
+          <div class="project-card-tags">
+            <span class="tag mint">Vue.js</span>
+            <span class="tag">Kafka</span>
+            <span class="tag peach">Python</span>
+          </div>
+          <div class="project-card-footer">
+            <div class="project-member-avatars">
+              <img src="assets/avatar_bao.jpg" alt="Bảo" />
+              <img src="assets/avatar_quan.jpg" alt="Quân" />
+            </div>
+            <span class="project-member-label">Bảo + Quân · 2 members</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- MediCare -->
+      <div class="project-card fade-in fade-in-delay-3" data-category="healthcare">
+        <div class="project-card-thumb" style="background:linear-gradient(135deg,#0d0d20,#1a1a2e);">
+          <div class="thumb-bg" style="background:linear-gradient(135deg,#f5976e,#e879a0);"></div>
+          <span class="thumb-emoji">🏥</span>
+        </div>
+        <div class="project-card-body">
+          <div class="project-card-meta">
+            <span class="project-card-category" style="color:var(--clr-accent3);">Healthcare</span>
+            <span class="project-card-year">2025</span>
+          </div>
+          <h2 class="project-card-title">MediCare — Clinical Dashboard</h2>
+          <p class="project-card-desc">An accessible, HIPAA-compliant dashboard for healthcare professionals. Kiệt focused on reducing cognitive load, while Quân designed the secure, compliant data architecture.</p>
+          <div class="project-card-tags">
+            <span class="tag peach">Healthcare</span>
+            <span class="tag">Accessibility</span>
+            <span class="tag rose">Cloud</span>
+          </div>
+          <div class="project-card-footer">
+            <div class="project-member-avatars">
+              <img src="assets/avatar_kiet.jpg" alt="Kiệt" />
+              <img src="assets/avatar_quan.jpg" alt="Quân" />
+            </div>
+            <span class="project-member-label">Kiệt + Quân · 2 members</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- ConnectHub -->
+      <div class="project-card fade-in fade-in-delay-1" data-category="web">
+        <div class="project-card-thumb" style="background:linear-gradient(135deg,#0d0d20,#1a1a2e);">
+          <div class="thumb-bg" style="background:linear-gradient(135deg,#7c6ef5,#e879a0);"></div>
+          <span class="thumb-emoji">🌐</span>
+        </div>
+        <div class="project-card-body">
+          <div class="project-card-meta">
+            <span class="project-card-category">Web Application</span>
+            <span class="project-card-year">2025</span>
+          </div>
+          <h2 class="project-card-title">ConnectHub — Community Platform</h2>
+          <p class="project-card-desc">A developer community platform with real-time chat, project showcasing, and team-finding features. Built with React, GraphQL, and a scalable microservices backend.</p>
+          <div class="project-card-tags">
+            <span class="tag">React</span>
+            <span class="tag mint">GraphQL</span>
+            <span class="tag peach">Microservices</span>
+          </div>
+          <div class="project-card-footer">
+            <div class="project-member-avatars">
+              <img src="assets/avatar_kiet.jpg" alt="Kiệt" />
+              <img src="assets/avatar_bao.jpg" alt="Bảo" />
+              <img src="assets/avatar_quan.jpg" alt="Quân" />
+            </div>
+            <span class="project-member-label">Full team · 3 members</span>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- /projects-grid -->
+    <div style="padding-bottom:80px;"></div>
+  </div>
+</section><!-- /page-projects -->
+
+
+<!-- ================================================
+     PAGE: ABOUT US
+     ================================================ -->
+<section id="page-about" class="page">
+
+  <div class="container">
+    <div class="about-hero">
+      <div class="about-hero-inner">
+
+        <!-- Visual side -->
+        <div class="about-visual fade-in">
+          <div class="about-team-img-grid">
+            <div class="about-team-img">
+              <img src="assets/avatar_kiet.jpg" alt="Tuấn Kiệt" />
+            </div>
+            <div class="about-team-img">
+              <img src="assets/avatar_bao.jpg" alt="Gia Bảo" />
+            </div>
+            <div class="about-team-img wide">
+              <img src="assets/avatar_quan.jpg" alt="Thế Quân" style="object-position:center 20%;" />
+            </div>
+          </div>
+          <div class="about-float-badge">
+            <div class="about-float-badge-icon">🚀</div>
+            <div>
+              <div class="about-float-badge-text">Software Outsourcing</div>
+              <div class="about-float-badge-sub">Building since 2025</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Text side -->
+        <div class="about-content fade-in fade-in-delay-1">
+          <div class="section-label">Who we are</div>
+          <h1 class="section-title">We Are <span>OurPortfolio.</span></h1>
+          <p class="section-desc" style="max-width:100%;">
+            OurPortfolio is a software outsourcing team of three university students who share one belief: great software is the result of great collaboration between design, engineering, and architecture.
+          </p>
+          <p style="color:var(--clr-text-muted);font-size:0.9rem;line-height:1.75;margin-top:16px;">
+            We are a student team from Ho Chi Minh City, Vietnam, studying Software Engineering. What started as a class project became a serious team with a shared vision: to build real products that solve real problems, applying industry-grade practices from day one.
+          </p>
+
+          <div class="about-values">
+            <div class="about-value-item">
+              <div class="about-value-num">01</div>
+              <div class="about-value-text">
+                <div class="about-value-title">User First, Always</div>
+                <div class="about-value-desc">Every decision starts with the user. We design and build with empathy, not assumptions.</div>
+              </div>
+            </div>
+            <div class="about-value-item">
+              <div class="about-value-num">02</div>
+              <div class="about-value-text">
+                <div class="about-value-title">Quality Over Speed</div>
+                <div class="about-value-desc">We write clean code, document our decisions, and test before we ship.</div>
+              </div>
+            </div>
+            <div class="about-value-item">
+              <div class="about-value-num">03</div>
+              <div class="about-value-text">
+                <div class="about-value-title">Built to Scale</div>
+                <div class="about-value-desc">From architecture to deployment, we think about what happens when the product grows.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- /about-hero-inner -->
+    </div>
+  </div>
+
+  <!-- Timeline -->
+  <div class="timeline-section">
+    <div class="container">
+      <div style="text-align:center;margin-bottom:56px;">
+        <div class="section-label fade-in">Our journey</div>
+        <h2 class="section-title fade-in fade-in-delay-1">How We <span>Got Here</span></h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item fade-in">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-date">September 2024</div>
+            <div class="timeline-title">🤝 Team Formed</div>
+            <div class="timeline-desc">Three students with different specializations came together in a Web Application Development course and decided to build something real.</div>
+          </div>
+        </div>
+        <div class="timeline-item fade-in fade-in-delay-1">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-date">November 2024</div>
+            <div class="timeline-title">🎨 First Design Sprint</div>
+            <div class="timeline-desc">Completed our first end-to-end design sprint — from user research to high-fidelity prototype — in just two weeks.</div>
+          </div>
+        </div>
+        <div class="timeline-item fade-in fade-in-delay-2">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-date">January 2025</div>
+            <div class="timeline-title">🚀 First Full-Stack Project Shipped</div>
+            <div class="timeline-desc">TaskFlow launched as our first complete project — a functional mobile task app designed, built, and deployed entirely by the team.</div>
+          </div>
+        </div>
+        <div class="timeline-item fade-in fade-in-delay-3">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-date">June 2025</div>
+            <div class="timeline-title">🏗️ NexaShop — Largest Project Yet</div>
+            <div class="timeline-desc">Our most ambitious project: a production-grade e-commerce platform with microservices, cloud deployment, and a fully redesigned UX.</div>
+          </div>
+        </div>
+        <div class="timeline-item fade-in fade-in-delay-4">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-date">September 2026</div>
+            <div class="timeline-title">🌟 OurPortfolio Website Launched</div>
+            <div class="timeline-desc">We launched this team portfolio — the very site you're looking at — as a showcase of who we are and what we can build together.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section><!-- /page-about -->
+
+
+<!-- ================================================
+     PAGE: CONTACT
+     ================================================ -->
+<section id="page-contact" class="page">
+  <div class="container">
+
+    <div class="contact-hero">
+      <div class="section-label fade-in">Get in touch</div>
+      <h1 class="section-title fade-in fade-in-delay-1">Let's Build Something <span>Together.</span></h1>
+      <p class="section-desc fade-in fade-in-delay-2" style="margin:0 auto;">
+        Have a project in mind? Whether you need design, development, or a full-stack solution — we'd love to hear from you.
+      </p>
+    </div>
+
+    <div class="contact-grid">
+
+      <!-- Left: Contact info -->
+      <div class="contact-info-block fade-in">
+        <div class="contact-info-card">
+          <div class="contact-info-icon">📧</div>
+          <div>
+            <div class="contact-info-label">Team Email</div>
+            <div class="contact-info-value">hello@ourportfolio.dev</div>
+          </div>
+        </div>
+        <div class="contact-info-card">
+          <div class="contact-info-icon">📍</div>
+          <div>
+            <div class="contact-info-label">Location</div>
+            <div class="contact-info-value">Ho Chi Minh City, Vietnam</div>
+          </div>
+        </div>
+        <div class="contact-info-card">
+          <div class="contact-info-icon">⚡</div>
+          <div>
+            <div class="contact-info-label">Response Time</div>
+            <div class="contact-info-value">Within 24 hours</div>
+          </div>
+        </div>
+        <div class="contact-info-card">
+          <div class="contact-info-icon">🌐</div>
+          <div>
+            <div class="contact-info-label">Available For</div>
+            <div class="contact-info-value">Freelance · Outsourcing · Internship</div>
+          </div>
+        </div>
+
+        <!-- Member contacts -->
+        <div style="background:var(--clr-surface);border:1px solid var(--clr-border);border-radius:var(--radius-lg);padding:24px;">
+          <div style="font-family:var(--font-heading);font-weight:700;font-size:0.9rem;margin-bottom:16px;color:var(--clr-text-muted);text-transform:uppercase;letter-spacing:0.08em;">Contact Members Directly</div>
+          <div style="display:flex;flex-direction:column;gap:14px;">
+            <a href="#" data-page="kiet" class="page-link" style="display:flex;align-items:center;gap:12px;">
+              <img src="assets/avatar_kiet.jpg" alt="Kiệt" style="width:36px;height:36px;border-radius:50%;object-fit:cover;border:2px solid var(--clr-accent1);" />
+              <div>
+                <div style="font-family:var(--font-heading);font-weight:700;font-size:0.88rem;">Tuấn Kiệt</div>
+                <div style="font-size:0.75rem;color:var(--clr-accent1);">UX Designer · kiet@ourportfolio.dev</div>
+              </div>
+            </a>
+            <a href="#" data-page="bao" class="page-link" style="display:flex;align-items:center;gap:12px;">
+              <img src="assets/avatar_bao.jpg" alt="Bảo" style="width:36px;height:36px;border-radius:50%;object-fit:cover;border:2px solid var(--clr-accent2);" />
+              <div>
+                <div style="font-family:var(--font-heading);font-weight:700;font-size:0.88rem;">Gia Bảo</div>
+                <div style="font-size:0.75rem;color:var(--clr-accent2);">Fullstack Dev · bao@ourportfolio.dev</div>
+              </div>
+            </a>
+            <a href="#" data-page="quan" class="page-link" style="display:flex;align-items:center;gap:12px;">
+              <img src="assets/avatar_quan.jpg" alt="Quân" style="width:36px;height:36px;border-radius:50%;object-fit:cover;border:2px solid var(--clr-accent3);" />
+              <div>
+                <div style="font-family:var(--font-heading);font-weight:700;font-size:0.88rem;">Thế Quân</div>
+                <div style="font-size:0.75rem;color:var(--clr-accent3);">Architect · quan@ourportfolio.dev</div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+      </div><!-- /contact-info-block -->
+
+      <!-- Right: Contact form -->
+      <div class="contact-form-card fade-in fade-in-delay-1">
+        <div id="formContent">
+          <h2 class="form-title">Send Us a Message</h2>
+          <p class="form-subtitle">Fill out the form below and we'll get back to you as soon as possible.</p>
+
+          <form id="contactForm" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" placeholder="John" required />
+              </div>
+              <div class="form-group">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" placeholder="Doe" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" placeholder="john@example.com" required />
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <select id="subject">
+                <option value="">Select a topic...</option>
+                <option value="project">New Project Inquiry</option>
+                <option value="hire">Hire a Team Member</option>
+                <option value="internship">Internship / Collaboration</option>
+                <option value="feedback">Feedback</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" placeholder="Tell us about your project, timeline, and any specific needs..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;" id="submitBtn">
+              Send Message ✉️
+            </button>
+          </form>
+        </div>
+
+        <!-- Success state -->
+        <div class="form-success" id="formSuccess">
+          <div class="form-success-icon">✅</div>
+          <div class="form-success-title">Message Sent!</div>
+          <div class="form-success-msg">Thanks for reaching out. We'll get back to you within 24 hours.</div>
+          <button class="btn btn-outline" style="margin-top:24px;" id="resetFormBtn">Send Another Message</button>
+        </div>
+      </div>
+
+    </div><!-- /contact-grid -->
+  </div>
+</section><!-- /page-contact -->
+
+</main>
+
+<!-- ================================================
+     FOOTER
+     ================================================ -->
+<footer>
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-logo">
+        <span style="background:var(--grad-text);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">OurPortfolio</span>
+      </div>
+      <div class="footer-copy">© 2026 OurPortfolio. Built with ❤️ in Ho Chi Minh City.</div>
+      <div class="footer-links">
+        <a href="#" data-page="home">Home</a>
+        <a href="#" data-page="members">Team</a>
+        <a href="#" data-page="projects">Projects</a>
+        <a href="#" data-page="contact">Contact</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
